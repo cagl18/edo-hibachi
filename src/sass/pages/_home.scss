@@ -1,0 +1,83 @@
+.section-specialties {
+    color: $color-grey-dark-2;
+    background-color:$color-grey-light-3;
+     
+    &--box {
+        text-transform: uppercase;
+    }
+
+    .row {
+        box-shadow: 0 1rem 3rem rgba($color-black, .2);  
+        text-align: center;
+
+        &:not(:last-child){
+            margin:0 auto;
+        }
+
+        & > .col-1-of-3{
+            width:33.3333%;
+            margin:0; 
+
+            @include respond(tab-port) {
+                width: 50% !important;
+
+                &:nth-child(3) .tile .tile__bg {
+                    background-color: $color-primary-light-2;
+                    color: $color-white;
+                }
+
+                &:nth-child(4) .tile .tile__bg {
+                    background-color: $color-white;
+                    color: $color-grey-dark-2;
+                }
+            }
+        }
+    }
+}
+
+.menu {
+    background-image: linear-gradient(to top, rgba($color-grey-dark-2,.1), rgba($color-white,.2)), 
+    url(../img/leaves-pattern.png);
+    padding-bottom: 4rem;
+
+    .row {
+
+        & .menu-section--box{
+            overflow-y: auto;
+
+            & > .col-1-of-2{
+                width:50%;
+                
+                &:not(:last-child) {
+                    margin: 0 auto;
+                }
+            }
+       }
+    }
+
+    @include respond(phone) { //width < 900?
+        & .curly-divider{
+            width:30%;
+        }
+    }
+
+}
+
+.section-reviews{
+    // padding-bottom: 15rem;
+    padding: 7rem 0 11rem 0;
+    background-image: linear-gradient(
+        // to right bottom,
+        rgba($color-grey-dark, .5), 
+        rgba($color-black, .85)), 
+        // url(/img/suhi.jpg);
+        url(../img/sushi.jpg);
+    background-size: cover;
+    // background-position:center;
+
+
+    /*MEDIA QUERIES FOR REVIEW COMPONENT*/
+    @include respond(phone) { //width < 900?
+        padding: 7rem 0rem;
+    }
+}

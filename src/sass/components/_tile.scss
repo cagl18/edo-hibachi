@@ -1,0 +1,72 @@
+.tile {
+     
+    &__bg {
+        animation: spin .6s linear;
+        position: relative;
+        height: 33rem;
+        color: $color-white;
+
+        &--default {
+            background-color: rgba($color-white,.7);
+            color: $color-grey-dark-2;
+        }
+
+        &--secondary {
+            background-color: $color-secondary;
+        }
+
+        &--tertiary {
+            background-color: $color-tertiary;
+        }
+        &--primary-light {
+            background-color: $color-primary-light-2;
+        }
+        
+    }
+
+    &__picture {
+        position: absolute;
+        left:50%;
+        top:40%;
+        transform:translate(-50%, -50%);
+        width: 25rem;
+        border-radius:50%;
+        box-shadow: 0 2rem 4rem rgba($color-black, .25);
+    }
+
+    &__details {
+        width:100%;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+
+    &__dish-name {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    &__dish-price {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    @include respond(phone) { //width < 900?
+        
+        &__bg {
+            height:20rem;
+            width: 100%;
+        }
+        &__picture {
+            top:38%;
+            width:12rem;
+        }
+        &__dish-name {
+            font-size: 2rem;
+            line-height: 1.15;
+            padding-bottom: 0.7rem;
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+.review,
+.review a {
+  color: $color-white;
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.2;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 3rem 0.5rem 3rem 2rem;
+  transition: all 0.2s;
+
+  &-box {
+    position: relative;
+  }
+
+  &__rating {
+    font-size: 2rem;
+    line-height: 1.9;
+    text-align: center;
+    color: $color-secondary-light;
+    font-style: normal;
+    // margin-bottom: 1rem;
+  }
+
+  &__comment {
+    & a:hover {
+      color: #f4d03f;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &__customer {
+    padding-top: 2rem;
+
+    &--img {
+      margin-right: 1rem;
+      border-radius: 50%;
+      width: 5.5rem;
+      height: 5.5rem;
+      transform: translateY(2.2rem);
+    }
+    &--name {
+      display: inline-block;
+    }
+  }
+}
+
+.review:before {
+  content: '\201C';
+  font-size: 300%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.review-box:after {
+  content: '\201D';
+  font-size: 300%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: -1rem;
+}

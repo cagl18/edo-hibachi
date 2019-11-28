@@ -1,0 +1,90 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(
+      // to right bottom,
+        rgba($color-black, 0.8),
+      rgba($color-black, 0.5)
+    ),
+    // url('../../img/sushi-hero3.jpg')
+      url(../img/sushi-hero.jpg);
+  background-size: cover;
+  background-position: center;
+
+  & .header__nav {
+    float: right;
+    @include clearfix;
+  }
+
+  &__nav-box {
+    padding: 6rem 0 0 8rem;
+    width: 90%;
+    margin: 0 auto;
+    // animation: moveInTop 1s ease-out;
+
+    .logo {
+      float: left;
+    }
+  }
+
+  & .mobile_navi {
+    display: none; //hiding mobile menu on desktops
+  }
+
+  &__content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    animation: moveInBottom 1s ease-out;
+    -webkit-animation: moveInBottom 1s ease-out;
+  }
+
+  &__scroll_arrow {
+    position: absolute;
+    bottom: 10%;
+    left: 48.2%;
+
+    @include respond(tab-port) {
+      //width < 900?
+      left: 43%;
+      bottom: 15%;
+    }
+
+    @include respond(tab-land) {
+      //width < 900?
+      //this will apply for screen width <= 1200.table portrait
+      left: 47%;
+      bottom: 15%;
+    }
+  }
+
+  /*MEDIA QUERIES FOR HEDAER*/
+  @include respond(tab-land) {
+    //width < 900?
+
+    & .mobile_navi {
+      display: block; //hiding mobile menu on desktops
+    }
+    &__nav {
+      display: none;
+    }
+  }
+  @include respond(tab-port) {
+    //width < 900?
+
+    // & .mobile_navi {
+    //     display: block; //hiding mobile menu on desktops
+    // }
+    &__nav-box {
+      width: 100%;
+      padding: 4.2rem 0 0 3rem;
+    }
+    &__nav {
+      display: none;
+    }
+  }
+}

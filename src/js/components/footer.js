@@ -59,7 +59,7 @@ const footer = () => {
                   <p>(803) 462-1500</p>
                 </a>
                 <i
-                  className='icon fas fa-phone-alt'
+                  className='fas fa-phone-alt'
                   style={{ fontSize: '2.3rem' }}
                 ></i>
               </div>

@@ -1,8 +1,8 @@
-# Video Tube
+# Edo Hibachi
 
-A small React app to search and play youtube videos.
+[Edo Hibachi ](https://cagl18.github.io/edo-hibachi/)
 
-[Video Tube](https://cagl18.github.io/videotube/)
+A hibachi restaurant located in columbia, South Carolina
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```
-git clone https://github.com/cagl18/videotube.git
+git clone https://github.com/cagl18/edo-hibachi.git
 ```
 
 2. Run npm install inside project root directory
@@ -46,9 +46,11 @@ Enjoy :)
 
 ## Built With
 
-- [React.Js](https://reactjs.org/) - The JavaScript framework used
-- [YouTube Search API](https://developers.google.com/youtube/v3/docs/) - Data source for the project
-- [Axios](https://github.com/axios/axios/) - Promise based HTTP client for the browser and node.js
+- HTML5
+- CSS3
+- [SASS](https://sass-lang.com/) - CSS Pre-Processor
+- [React](https://reactjs.org/) - The JavaScript framework used
+- [Yelp Fusion](https://www.yelp.com/fusion) - Api for customer reviews data
 
 ## Contributors
 
@@ -60,4 +62,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- [Semantic UI](https://semantic-ui.com) - CSS framework
+- [Font Awesome](https://fontawesome.com/) - Font Icons

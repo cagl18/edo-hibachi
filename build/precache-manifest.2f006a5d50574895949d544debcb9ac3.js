@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdd2dafc4152217d0455bd2a2219d3ef",
+    "revision": "e30d3317581ff0cd95c80cb292e8bd80",
     "url": "/edohibachi/index.html"
   },
   {
-    "revision": "9f4f87b284add97ba0df",
+    "revision": "b8a9d52dd309de5b5e84",
     "url": "/edohibachi/static/css/main.9310ff62.chunk.css"
   },
   {
-    "revision": "a45e4bb3770edb130cb7",
-    "url": "/edohibachi/static/js/2.25adf443.chunk.js"
+    "revision": "75877f10aaee9bd8ead1",
+    "url": "/edohibachi/static/js/2.0db7a503.chunk.js"
   },
   {
-    "revision": "9f4f87b284add97ba0df",
-    "url": "/edohibachi/static/js/main.1275653e.chunk.js"
+    "revision": "b8a9d52dd309de5b5e84",
+    "url": "/edohibachi/static/js/main.caf587c2.chunk.js"
   },
   {
-    "revision": "969534d1d3627ec0f674",
-    "url": "/edohibachi/static/js/runtime~main.cdeea48e.js"
+    "revision": "dcd25327a4e82f7b1a4b",
+    "url": "/edohibachi/static/js/runtime~main.80a46177.js"
   },
   {
     "revision": "939d445e9151bc638aab21799b9eeb50",

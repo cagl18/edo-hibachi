@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/edohibachi/static/css/main.9310ff62.chunk.css",
+    "main.js": "/edohibachi/static/js/main.1275653e.chunk.js",
+    "main.js.map": "/edohibachi/static/js/main.1275653e.chunk.js.map",
+    "runtime~main.js": "/edohibachi/static/js/runtime~main.cdeea48e.js",
+    "runtime~main.js.map": "/edohibachi/static/js/runtime~main.cdeea48e.js.map",
+    "static/js/2.25adf443.chunk.js": "/edohibachi/static/js/2.25adf443.chunk.js",
+    "static/js/2.25adf443.chunk.js.map": "/edohibachi/static/js/2.25adf443.chunk.js.map",
+    "index.html": "/edohibachi/index.html",
+    "precache-manifest.6a4e00d885d84bd58a7d287e78530e60.js": "/edohibachi/precache-manifest.6a4e00d885d84bd58a7d287e78530e60.js",
+    "service-worker.js": "/edohibachi/service-worker.js",
+    "static/css/main.9310ff62.chunk.css.map": "/edohibachi/static/css/main.9310ff62.chunk.css.map",
+    "static/media/specialty_Hibachi-Shrimp.png": "/edohibachi/static/media/specialty_Hibachi-Shrimp.939d445e.png",
+    "static/media/specialty_Hibachi-Vegetable.png": "/edohibachi/static/media/specialty_Hibachi-Vegetable.9077967c.png",
+    "static/media/specialty_Salt-and-Pepper-Chicken.png": "/edohibachi/static/media/specialty_Salt-and-Pepper-Chicken.4c6970af.png",
+    "static/media/specialty_Steak-bowl.png": "/edohibachi/static/media/specialty_Steak-bowl.7d801722.png",
+    "static/media/specialty_godzilla-roll.png": "/edohibachi/static/media/specialty_godzilla-roll.c4124cc6.png",
+    "static/media/specialty_gyoza.png": "/edohibachi/static/media/specialty_gyoza.5fcb5374.png",
+    "static/media/style.css": "/edohibachi/static/media/sushi.c2a99b06.jpg"
+  }
+}

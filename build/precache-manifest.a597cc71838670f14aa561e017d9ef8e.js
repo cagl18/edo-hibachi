@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e30d3317581ff0cd95c80cb292e8bd80",
+    "revision": "9f9d9b883ae859c90ebb5b8d64de724f",
     "url": "/edohibachi/index.html"
   },
   {
-    "revision": "b8a9d52dd309de5b5e84",
-    "url": "/edohibachi/static/css/main.9310ff62.chunk.css"
+    "revision": "64e4aba49486d8c469e8",
+    "url": "/edohibachi/static/css/main.ad5d75fa.chunk.css"
   },
   {
-    "revision": "75877f10aaee9bd8ead1",
-    "url": "/edohibachi/static/js/2.0db7a503.chunk.js"
+    "revision": "e6c9f824ca226b431f47",
+    "url": "/edohibachi/static/js/2.aa2033c1.chunk.js"
   },
   {
-    "revision": "b8a9d52dd309de5b5e84",
-    "url": "/edohibachi/static/js/main.caf587c2.chunk.js"
+    "revision": "0233dc07ace22ab07f5a69ffdabb6981",
+    "url": "/edohibachi/static/js/2.aa2033c1.chunk.js.LICENSE"
   },
   {
-    "revision": "dcd25327a4e82f7b1a4b",
-    "url": "/edohibachi/static/js/runtime~main.80a46177.js"
+    "revision": "64e4aba49486d8c469e8",
+    "url": "/edohibachi/static/js/main.67aaafc4.chunk.js"
+  },
+  {
+    "revision": "f1d0ecdfc67af581217c",
+    "url": "/edohibachi/static/js/runtime-main.07f3649a.js"
   },
   {
     "revision": "939d445e9151bc638aab21799b9eeb50",

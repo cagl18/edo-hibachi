@@ -1,8 +1,8 @@
 # Edo Hibachi
 
-[Edo Hibachi ](https://cagl18.github.io/edo-hibachi/)
+[Edo Hibachi ](https://cagl18.github.io/edohibachi/)
 
-A hibachi restaurant located in columbia, South Carolina
+A hibachi restaurant located in columbia, South Carolina built with ReactJs.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```
-git clone https://github.com/cagl18/edo-hibachi.git
+git clone https://github.com/cagl18/edohibachi.git
 ```
 
 2. Run npm install inside project root directory
